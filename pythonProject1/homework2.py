@@ -1,0 +1,5 @@
+amount_of_people = float(input("How many people are going? "))
+cost_of_fuel = float(input("What's the price of fuel per litre? "))
+fuel_usage = float(input("How many litres does car use per 100km? "))
+distance = float(input("What's the distance the car will travel? "))
+print("Each person will pay" , ((distance / 100 * fuel_usage * cost_of_fuel) / amount_of_people) * 2 , "$")
